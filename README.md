@@ -1,5 +1,7 @@
 #### Structure
 
+![image-20200828124030111](C:\Users\王奚为\AppData\Roaming\Typora\typora-user-images\image-20200828124030111.png)
+
 ```mermaid
 graph TB;
 	Event.hpp-->Execution.hpp
@@ -19,6 +21,8 @@ graph TB;
 	PyPlot.py-.external PyFile.->main.cpp
 	
 ```
+
+
 
 #### Prototype
 
@@ -51,6 +55,8 @@ ExecutionHandler: public IBExecutionHandler(std::shared_ptr<ThreadQueue<Event *>
 `DataHandler object`
 
 #### UML
+
+![image-20200828123955076](C:\Users\王奚为\AppData\Roaming\Typora\typora-user-images\image-20200828123955076.png)
 
 ```mermaid
 sequenceDiagram
@@ -92,8 +98,5 @@ sequenceDiagram
     end
     GUI--xUser:join()
 ```
-
-
-
 
 
