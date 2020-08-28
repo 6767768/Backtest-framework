@@ -1,6 +1,6 @@
 #### Structure
 
-![image-20200828124030111](C:\Users\王奚为\AppData\Roaming\Typora\typora-user-images\image-20200828124030111.png)
+![image-20200828124030111](./Screenshot/image-20200828124030111.png)
 
 ```mermaid
 graph TB;
@@ -56,7 +56,7 @@ ExecutionHandler: public IBExecutionHandler(std::shared_ptr<ThreadQueue<Event *>
 
 #### UML
 
-![image-20200828123955076](C:\Users\王奚为\AppData\Roaming\Typora\typora-user-images\image-20200828123955076.png)
+![image-20200828123955076](./Screenshot/image-20200828123955076.png)
 
 ```mermaid
 sequenceDiagram
