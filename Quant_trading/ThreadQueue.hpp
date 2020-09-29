@@ -24,8 +24,6 @@ template<typename T>
 class ThreadQueue {
 private:
 	mutable std::mutex m_mutex;
-	/*被mutable修饰的变量，将永远处于可变的状态，即使在一个const函数中。
-	但问题是，我只想修改某个成员变量，其余成员变量仍然希望被const保护。*/
 	std::queue<T> Queue;
 public:
 	ThreadQueue() {};
