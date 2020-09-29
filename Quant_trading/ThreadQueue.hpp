@@ -1,3 +1,9 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Copyright Â© 2020 Xiwei Wang 
+ * Created by Xiwei Wang on 07/26/2020
+ * All rights reserved.                                               
+ *                                               
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 #ifndef THREADQUEUE
 #define THREADQUEUE
@@ -18,8 +24,8 @@ template<typename T>
 class ThreadQueue {
 private:
 	mutable std::mutex m_mutex;
-	/*±»mutableĞŞÊÎµÄ±äÁ¿£¬½«ÓÀÔ¶´¦ÓÚ¿É±äµÄ×´Ì¬£¬¼´Ê¹ÔÚÒ»¸öconstº¯ÊıÖĞ¡£
-	µ«ÎÊÌâÊÇ£¬ÎÒÖ»ÏëĞŞ¸ÄÄ³¸ö³ÉÔ±±äÁ¿£¬ÆäÓà³ÉÔ±±äÁ¿ÈÔÈ»Ï£Íû±»const±£»¤¡£*/
+	/*è¢«mutableä¿®é¥°çš„å˜é‡ï¼Œå°†æ°¸è¿œå¤„äºå¯å˜çš„çŠ¶æ€ï¼Œå³ä½¿åœ¨ä¸€ä¸ªconstå‡½æ•°ä¸­ã€‚
+	ä½†é—®é¢˜æ˜¯ï¼Œæˆ‘åªæƒ³ä¿®æ”¹æŸä¸ªæˆå‘˜å˜é‡ï¼Œå…¶ä½™æˆå‘˜å˜é‡ä»ç„¶å¸Œæœ›è¢«constä¿æŠ¤ã€‚*/
 	std::queue<T> Queue;
 public:
 	ThreadQueue() {};

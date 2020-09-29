@@ -1,3 +1,10 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Copyright © 2020 Xiwei Wang 
+ * Created by Xiwei Wang on 07/26/2020
+ * All rights reserved.                                               
+ *                                               
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 #ifndef STRATEGY_HPP
 #define STRATEGY_HPP
 

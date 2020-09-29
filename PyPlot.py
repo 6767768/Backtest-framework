@@ -1,3 +1,9 @@
+"""
+Created on Fri Jul 10 05:03:41 2020
+
+@author: Xiwei Wang
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
